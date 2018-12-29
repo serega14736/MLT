@@ -11,6 +11,6 @@
 Приравняв нулю производную ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/16.PNG), получим формулу ядерного сглаживания Надарая–Ватсона: ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/17.PNG).
 ### Выбор ядра и ширины окна
 Выбор ядра мало влияет на точность аппроксимации, но определяющим образом влияет на степень гладкости функции ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/18.PNG). Для ядерного сглаживания чаще всего берут гауссовское ядро 
-![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/18.PNG) или квартическое ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/19.PNG).
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/19.PNG) или квартическое ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/20.PNG).
 
 ![Пример ядер](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/1.png).
