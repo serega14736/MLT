@@ -12,5 +12,5 @@
 ### Выбор ядра и ширины окна
 Выбор ядра мало влияет на точность аппроксимации, но определяющим образом влияет на степень гладкости функции ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/18.PNG). Для ядерного сглаживания чаще всего берут гауссовское ядро 
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/19.PNG) или квартическое ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/20.PNG).
-
 ![Пример ядер](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/1.png).
+Выбор ширины окна ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/12.PNG) решающим образом влияет на качество восстановления зависимости. При слишком узком окне ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/21.PNG) функция ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/18.PNG) стремится пройти через все точки выборки, реагируя на шум и претерпевая резкие скачки. При слишком широком окне функция чрезмерно сглаживается и в пределе ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/22.PNG) вырождается в константу.
