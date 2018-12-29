@@ -13,4 +13,4 @@
 Выбор ядра мало влияет на точность аппроксимации, но определяющим образом влияет на степень гладкости функции ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/18.PNG). Для ядерного сглаживания чаще всего берут гауссовское ядро 
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/18.PNG) или квартическое ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/19.PNG).
 
-![Пример ядер](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/1.PNG).
+![Пример ядер](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/1.png).
