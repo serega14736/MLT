@@ -23,4 +23,5 @@
 ### Результаты работы реализованного метода
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/2.png)
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/3.png)
+### SSE
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/4.png)
