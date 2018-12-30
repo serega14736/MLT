@@ -19,3 +19,8 @@
 Чтобы оценить при данном ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/12.PNG) точность локальной аппроксимации в точке ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/14.PNG), саму эту точку необходимо исключить из обучающей выборки.Такой способ оценивания называется скользящим контролем с исключением объектов по одному (leave-one-out, LOO): ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/23.PNG) ,где минимизация осуществляется по ширине окна ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/12.PNG).
 
 Для оценки критерия качества полученной зависимости используют сумму квадратов остатков:![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/24.PNG)
+
+### Результаты работы реализованного метода
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/2.png)
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/3.png)
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/4.png)
