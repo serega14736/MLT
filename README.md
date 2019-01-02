@@ -1,5 +1,5 @@
 # Непараметрическая	регрессия.
-## Формула	Надарая – Ватсона
+## Формула Надарая – Ватсона
 ### Постановка задачи
 Пусть задано пространство объектов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/1.PNG) и множество возможных ответов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/2.PNG). Существует неизвестная зависимость ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/3.PNG) значения которой известны только на объектах обучающией выборки ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/4.PNG),требуется построить алгоритм ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/5.PNG), аппроксимирующий неизвестную зависимость ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/6.PNG).
 ### Формула Надарая-Ватсона
@@ -31,6 +31,12 @@
 ### Постановка задачи
 Оценка Надарайя–Ватсона крайне чувствительна к большим одиночным выбросам. Поэтому, на ум приходит самое простое решение — чем больше величина ошибки, тем в большей степени i-й прецедент является выбросом, и тем меньше должен быть его вес. Эти соображения приводят к идее домножить веса ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/13.PNG) на коэффициенты ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/25.PNG) где ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/26.PNG) — ещё одно ядро, вообще говоря, отличное от ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/27.PNG).
 
+### Результаты работы метода Надарая-Ватсона с выбросом
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/5.png)
+
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/6.png)
+### SSE
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/7.PNG)
 ### Выбор ядра
 Возможны различные варианты задания ядра ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/28.PNG).
 Жёсткая фильтрация: строится вариационный ряд ошибок ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/29.PNG)
