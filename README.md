@@ -43,3 +43,6 @@
 и отбрасывается некоторое количество t объектов с наибольшей ошибкой. Это соответствует ядру ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/30.PNG).
 Мягкая фильтрация: используется квартическое ядро ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/31.PNG)
 где ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/32.PNG) — медиана вариационного ряда ошибок.
+Величина ошибки ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/33.PNG) вычисляется как ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/34.PNG)
+### Алгоритм LOWESS
+Вычислить оценки скользящего контроля на каждом объекте: (https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/35.PNG), каждый раз пересчитывая коэфициенты (https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/36.PNG), пока они не стабилизируются. Как правило, этот процесс сходится довольно быстро. Однако в практических реализациях имеет смысл вводить ограничение на количество итераций, как правило, это 2-4 итерации.
