@@ -55,8 +55,7 @@ _X = np.array([0.012578949563923095, 0.018868424345884642, 0.06918422260157703, 
 # f.write(', '.join(str(e) for e in _X.tolist()))
 # f.write("\n ----")
 # f.write(', '.join(str(e) for e in _y.tolist()))
-
-_y[50] = 3.0
+#_y[50] = 3.0
 
 SSEsG = np.empty(0)
 SSEsQ = np.empty(0)

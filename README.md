@@ -50,5 +50,11 @@
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/8.png)
 
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/9.png)
-
+### Заключение
 Таким образом, можно сделать вывод, что локально взвешанное сглаживание показывает хорошие результаты, по сравнению с предыдущим методом, то есть заметно увеличилось качество апроксимации в случае с выбросом.
+
+# Линейная регрессия.
+## Многомерная линейная регрессия
+### Постановка задачи
+Имеется множество объектов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/1.PNG) и множетсво ответов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/2.PNG). Также имеется набор ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/37.PNG) вещественнозначных признаков. Введём матричные обозначения: матрицу информации ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/38.PNG), целевой вектор ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/39.PNG), вектор
+параметров ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/40.PNG) и диагональную матрицу весов ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/41.PNG): ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/42.PNG)
