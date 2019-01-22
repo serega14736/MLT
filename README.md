@@ -46,3 +46,9 @@
 Величина ошибки ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/33.PNG) вычисляется как ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/34.PNG)
 ### Алгоритм LOWESS
 Вычислить оценки скользящего контроля на каждом объекте: ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/35.PNG), каждый раз пересчитывая коэфициенты ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/img's/36.PNG), пока они не стабилизируются. Как правило, этот процесс сходится довольно быстро. Однако в практических реализациях имеет смысл вводить ограничение на количество итераций, как правило, это 2-4 итерации.
+### Результаты работы метода Надарая-Ватсона с выбросом
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/8.png)
+
+![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/9.png)
+
+Таким образом, можно сделать вывод, что локально взвешанное сглаживание показывает хорошие результаты, по сравнению с предыдущим методом, то есть заметно увеличилось качество апроксимации в случае с выбросом.
