@@ -50,5 +50,5 @@
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/8.png)
 
 ![](https://raw.githubusercontent.com/IsmailovMukhammed/MLT/master/fig's/9.png)
-
+### Заключение
 Таким образом, можно сделать вывод, что локально взвешанное сглаживание показывает хорошие результаты, по сравнению с предыдущим методом, то есть заметно увеличилось качество апроксимации в случае с выбросом.
